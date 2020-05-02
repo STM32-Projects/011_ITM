@@ -10,4 +10,11 @@ The main uses of ITM include:
 
 This is implemented by making use of the 3rd pin(SWO Trace Pin) in SWD(Serial Wire Debug) interface for printf style debugging.
 
-Note: The sycalls.c file is updated with ITM_SendChar() function to write toITM specific reggisters	
+The following changes are reuired to implement printf style debugging with ITM
+
+1. Enable SWV in project configurations(Debugger Tab)
+2. Update syscalls.c with ITM_SendChar() function to write toITM specific reggisters	
+
+If you want to see the outputs from ITM unit, you need to enable SWV ITM Data Console as follows:
+
+Window -> Show View -> SWV -> SWV ITM Data Console
