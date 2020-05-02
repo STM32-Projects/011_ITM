@@ -14,3 +14,7 @@ The following changes are reuired to implement printf style debugging with ITM
 
 1. Enable SWV in project configurations(Debugger Tab)
 2. Update syscalls.c with ITM_SendChar() function to write toITM specific reggisters	
+
+If you want to see the outputs from ITM unit, you need to enable SWV ITM Data Console as follows:
+
+Window -> Show View -> SWV -> SWV ITM Data Console
