@@ -9,3 +9,5 @@ The main uses of ITM include:
 3. Emit diagnostic system information.
 
 This is implemented by making use of the 3rd pin(SWO Trace Pin) in SWD(Serial Wire Debug) interface for printf style debugging.
+
+Note: The sycalls.c file is updated with ITM_SendChar() function to write toITM specific reggisters	
