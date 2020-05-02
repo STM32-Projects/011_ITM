@@ -17,4 +17,8 @@ The following changes are reuired to implement printf style debugging with ITM
 
 If you want to see the outputs from ITM unit, you need to enable SWV ITM Data Console as follows:
 
-Window -> Show View -> SWV -> SWV ITM Data Console
+Window -> Show View -> SWV -> SWV ITM Data Console and don't forget to select ITM Stimulus Ports from SWV ITM Data Console configuration settings and start trace(See the images below).
+
+![](Images/SWV_ITM_Data_Console.png)
+
+![](Images/Trace_Configuration.png)
